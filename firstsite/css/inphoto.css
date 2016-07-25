@@ -1,0 +1,32 @@
+#warp{
+}
+.box{
+    width:30%;
+    height: 200px;
+    border: 1px solid #d5d5d5;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px;
+    float:left;
+    margin: 10px 1.5% 20px;
+}
+img{
+    margin:0 5%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);    width:90%;
+}
+@media (max-width: 990px) {
+    img{
+        height: 170px;
+    }
+}
+
+@media (max-width: 550px){
+    img{
+
+    }
+    .box{
+        width: 90%;
+
+    }
+}
